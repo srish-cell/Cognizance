@@ -1,0 +1,18 @@
+#This is a program to display n th term of the fibonacci series.
+[Start]
+1)Declare variables F(0),F(1),F(2),n,i.
+2)Input a number from the user using input function.Store the user's input in the variable n.
+3)If n>2:
+	a)Assign F(0)=0, F(1)=1 and i=2.[Initializing the variables]
+	b)while i<=n repeat steps c to f.
+	c)Assign F(2)=F(0)+F(1).
+	d)Assign F(0)=F(1) 
+	e)Assign F(1)=F(2)
+	f)Assign i=i+1
+	g)OUTPUT F(2)
+  Else:
+	If n=0:
+		OUTPUT 0
+	Else: 
+		OUTPUT 1
+[Stop]
