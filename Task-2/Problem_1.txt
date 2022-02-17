@@ -1,0 +1,15 @@
+#This progam is to find wheter a given number is divisible by 3 or not.
+[Start]
+1)Declare variables num,sum and remainder as integer values.
+2)OUTPUT:Enter a number.
+3)Input number from the user using input function.Store the user's input in the variable num.
+4)Assign sum=0.[Initializing sum]
+5)Repeat steps 6 to 8 while num>0.
+6)Assign remainder=num%10.
+7)Assign sum=sum+remainder.
+8)Assign num=num/10.
+9)if (sum%3==0):
+	then OUTPUT "True".
+  else:
+	OUTPUT "False".
+[Stop]
