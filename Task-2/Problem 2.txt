@@ -2,7 +2,7 @@
 [Start]
 1)Declare variables F(0),F(1),F(2),n,i.
 2)Input a number from the user using input function.Store the user's input in the variable n.
-3)If n>2:
+3)If n>1:
 	a)Assign F(0)=0, F(1)=1 and i=2.[Initializing the variables]
 	b)while i<=n repeat steps c to f.
 	c)Assign F(2)=F(0)+F(1).
