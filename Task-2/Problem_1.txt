@@ -1,4 +1,4 @@
-#This progam is to find wheter a given number is divisible by 3 or not.
+#This progam is to check wheter a given number is divisible by 3 or not.
 [Start]
 1)Declare variables num,sum and remainder as integer values.
 2)OUTPUT:Enter a number.
