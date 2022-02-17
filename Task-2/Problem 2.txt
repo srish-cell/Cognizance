@@ -9,10 +9,10 @@
 	d)Assign F(0)=F(1) 
 	e)Assign F(1)=F(2)
 	f)Assign i=i+1
-	g)OUTPUT F(2)
+	g)OUTPUT F(2) { Means Print response as F(2)}
   Else:
 	If n=0:
-		OUTPUT 0
+		OUTPUT 0 { Means Print response as 0}
 	Else: 
-		OUTPUT 1
+		OUTPUT 1 { Means Print response as 1}
 [Stop]
