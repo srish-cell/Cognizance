@@ -9,7 +9,7 @@
 7)Assign sum=sum+remainder.
 8)Assign num=num/10.
 9)if (sum%3==0):
-	then OUTPUT "True".
+	then OUTPUT "True". {Means Print response as "True"}
   else:
-	OUTPUT "False".
+	OUTPUT "False". {Means Print response as "False"}
 [Stop]
