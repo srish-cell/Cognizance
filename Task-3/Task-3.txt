@@ -1,2 +1,3 @@
 Genre for my landing page is a Travel Company's website for booking/planning trips.
+The Company name is "Plan To Trip".
 I used Figma to create this landing page.
