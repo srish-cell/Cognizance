@@ -7,10 +7,12 @@ for i in range (n):
     for p in range (i+1):
         print("*",end=' ')
     print(" ")
-
-#Alternative method/code
-n=5
-print("Alternative Method")
-for i in range (n) :
-    print(" "*(n-i-1),end=" ")
-    print("* "*(i+1))
+#Alternative method/code(using while loop)
+n=t=5
+print("Alternative Method using while loop")
+i=0
+while n>0:
+    print(" " * (t - i - 1), end=" ")
+    print("* " * (i + 1))
+    i+=1
+    n-=1
