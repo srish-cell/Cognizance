@@ -13,17 +13,20 @@ for i in list:
 print("Second record of the list is")
 for i in list[2]:
     print(i,end='\t')
+print()
 #Alternative method
 print("Alternative method")
 w=int(input("Enter the number of columns: "))
-h=int(input("Enter the number of rows: "))
+h=int(input("Enter the number of rows including column headings: "))
 list=[[0 for j in range(w)]for i in range (h)]
 for i in range (h):
     if i==0:
         print("Enter the headings for the columns")
     else:
-        print("Enter the values for the row", i + 1)
+        print("Enter the values for the row", i)
     for j in range (w):
+        if i!=0:
+            print("Enter the value for", list[0][j])
         list[i][j]=input()
 for i in list:
     for j in i:
